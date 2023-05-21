@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- <link rel="stylesheet" href="index.css"> -->
+    <title>Nutrition Finder</title>
+    <script type="module" src="js/index.js"> </script>
+    <script type="module" src="js/autocomplete.js"> </script>
+    <script type="module" src="js/functions.js"> </script>
+</head>
+<body>
+    <h1>Find your nutrition facts!</h1>
+    <div id='everything'>
+    <div id='loading'>
+    <label for="food">Enter the food ex.(banana, atlantic salmon, asparagus)</label>
+    <div id="autocomplete" style="width:300px;"><input required name="food" type="text" id="food_input"></div>
+    <div id="buttonDiv" style="width:300px;"><button id="btn">Specify what you want to get.</button></div>
+    </div>
+    <div id="quantityInputDiv"></div>
+    <p id='loader' style="display:none">Loading please wait.</p>
+    <div id="nutritionTableDiv"></div>
+    </div>
+</body>
+</html>
